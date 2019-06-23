@@ -3,7 +3,7 @@
 #This is the expression to be matched, currently it's format is XXXX-XXXX-XXXX-XXXX
 #This can be changed to easily do social security numbers or othe items with similiar formats or anything really
 $var_match_exp = "[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]"
-#This takes the contents of the current directory and adds them to the list
+#This takes the contents of the current directory and adds them to an array
 #Adding -recurse and -file to this makes it go through recursivly and adding only files.
 
 $var_group = (get-childitem -file).Name
